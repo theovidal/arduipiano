@@ -1,3 +1,12 @@
+/*
+  Arduipiano - Notes definition
+  -----------------------------
+  In this file, we define a constant for every note, so the user doesn't have to memorize all the frequencies.
+*/
+
+#ifndef NOTES_H_
+#define NOTES_H_
+
 #define NOTE_A1 28
 #define NOTE_A2 55
 #define NOTE_A3 110
@@ -65,3 +74,5 @@
 #define NOTE_G6 1568
 #define NOTE_G7 3136
 #define NOTE_G8 6272
+
+#endif

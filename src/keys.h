@@ -1,13 +1,21 @@
+/*
+  Arduipiano - Key definition file
+  --------------------------------
+  In this file, you can register all the keys of your piano, and their respective notes.
+*/
+
 // The includes - Don't touch them !
 
 #include "../lib/key.h"
 #include "../lib/notes.h"
 
-// Replace these keys with yours.
-// Syntax : Key name(pin, note);
-// Note syntax : NOTE_letterNumber
-//                   A to G   0 to 8
-//                 (exclude A0 and B0)
+/*
+  Replace these keys with yours.
+  Syntax : Key name(pin, note);
+  Note syntax : NOTE_letterNumber
+                    A to G   0 to 8
+                   (exclude A0 and B0)
+*/
 
 Key a(2, NOTE_G2);
 Key b(3, NOTE_C3);
