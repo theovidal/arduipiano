@@ -24,15 +24,21 @@ To make this piano, you will need :
 
 Connect the buzzer to a specific pin, and buttons on all other free pins. Since they're in pullup mode in the code, you don't have to place resistors in order to make them work. If you feel placing a current limiting resistor, it's up to you !
 
-![Basic setup](docs/basic-setup.png)
+![Basic setup](assets/basic-setup.png)
 
 > Example piano using a buzzer connected to pin 13 and one button connected to pin 5, on an Arduino Uno.
 
+Add as many buttons as you can in order to make a full piano ! Here is an example I shot with my smartphone :
+
+![Example](assets/example-piano.png)
+
+> My personal Arduipiano with 10 buttons and a little LED that lights each time the buzzer is triggered.
+
 ## 📲 Software setup
 
-Register your piano's keys and the buzzer's pin in the `src/keys.h` file. Even if you don't know much about programming, you don't have to worry : all is documented in this file. If you have troubles, feel free to open an issue on the repository !
+Register your piano's keys and the buzzer's pin in the `src/keys.h` file. Even if you don't know much about programming, you don't have to worry : all is documented in this file. If you have troubles, feel free to [open an issue](https://github.com/BecauseOfProg/arduipiano/issues/new) !
 
-After that step, upload the main.ino sketch into the board. If you did all the steps correctly, your piano must start working !
+After that step, upload the `main.ino` sketch into your board. If you did all the steps correctly, your piano should start working !
 
 ## 📜 Credits
 
