@@ -42,13 +42,13 @@ After that step, upload the `main.ino` sketch into your board. If you did all th
 
 ## 📜 Credits
 
-- Maintainer : Exybore
+- Maintainer: [Théo Vidal](https://github.com/theovidal)
 
 ## 🔐 License
 
 MIT License
 
-Copyright (c) 2019 BecauseOfProg
+Copyright (c) 2020 Théo Vidal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
